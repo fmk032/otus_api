@@ -1,0 +1,33 @@
+{
+  "url": "https://api.openbrewerydb.org/breweries",
+  "per_page": ["1", "3"],
+  "id": ["backlash-beer-co-boston", "10-barrel-brewing-co-bend-1"],
+  "query": ["barrel", "town"],
+  "filters": [
+        {
+          "filter": "by_city",
+          "key": "city",
+          "values": ["Boston", "Dallas"]
+        },
+        {
+          "filter": "by_name",
+          "key": "name",
+          "values": ["Brewing", "Company"]
+        },
+        {
+          "filter": "by_state",
+          "key": "state",
+          "values": ["Indiana", "Oregon"]
+        },
+        {
+          "filter": "by_postal",
+          "key": "postal_code",
+          "values": ["46534", "44107"]
+        },
+        {
+          "filter": "by_type",
+          "key": "brewery_type",
+          "values": ["micro", "brewpub"]
+        }
+      ]
+}
