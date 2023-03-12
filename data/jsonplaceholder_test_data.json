@@ -1,0 +1,19 @@
+{
+  "url": "https://jsonplaceholder.typicode.com/posts",
+  "id": [1, 2],
+  "resources_to_create": [
+    {
+      "title": "my_resource",
+      "body": "bla-bla",
+      "used_id": "1"
+    },
+    {
+      "any": "stuff",
+      "that": "you",
+      "wish": "is ok"
+    }
+  ],
+  "patch": [
+    {"title": "new_title"},
+    {"body": "new_body"}]
+}
